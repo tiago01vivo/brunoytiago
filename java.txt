@@ -1,0 +1,28 @@
+java
+class Paciente {
+    private String nombre;
+    private String apellido;
+    private float estatura; // en metros
+    private float peso; // en kilogramos
+
+    public Paciente(String nombre, String apellido, float estatura, float peso) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.estatura = estatura;
+        this.peso = peso;
+    }
+}
+
+class Medico {
+    private String nombre;
+    private String apellido;
+    private String especialidad;
+
+    public Medico(String nombre, String apellido, String especialidad) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.especialidad = especialidad;
+    }
+}
+
+
